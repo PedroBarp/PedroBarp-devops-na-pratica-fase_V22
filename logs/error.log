@@ -1,0 +1,20 @@
+{"error":{"address":"0.0.0.0","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"error","message":"Erro não capturado","service":"devops-app","timestamp":"2025-06-19T13:43:01.586Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T13:44:32.692Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T13:47:28.936Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T13:57:55.413Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T13:58:30.833Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T13:59:17.056Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T14:10:01.596Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:22:40.771Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:34:19.672Z"}
+{"error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"error","message":"Erro não capturado","service":"devops-app","timestamp":"2025-06-19T16:44:16.074Z"}
+{"error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"error","message":"Erro não capturado","service":"devops-app","timestamp":"2025-06-19T16:44:39.339Z"}
+{"error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"error","message":"Erro não capturado","service":"devops-app","timestamp":"2025-06-19T16:44:40.348Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:50:40.894Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:52:09.625Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:57:10.201Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T16:59:12.644Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T18:37:16.950Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T18:37:51.896Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T18:39:31.755Z"}
+{"level":"error","message":"Erro simulado para testes","service":"devops-app","timestamp":"2025-06-19T18:40:49.177Z"}

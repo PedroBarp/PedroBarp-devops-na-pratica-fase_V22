@@ -1,0 +1,26 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar Trivy
+        run: |
+          sudo apt-get update
+          sudo apt-get install wget -y
+          wget -qO- https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo bash
+
+      - name: Rodar Trivy
+        run: trivy fs --format sarif --output trivy-results.sarif .

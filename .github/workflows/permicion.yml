@@ -1,0 +1,21 @@
+name: Security Scan
+
+# Estive com problema para configuarar o GitHub Actions
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Trivy scan
+        run: |
+          trivy fs --format sarif --output trivy-results.sarif .
