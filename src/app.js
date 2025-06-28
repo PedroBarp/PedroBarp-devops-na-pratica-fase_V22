@@ -7,16 +7,10 @@ const winston = require('winston');
 
 // Configuração do log
 
-const logsDir = path.join(__dirname, 'logs');
-
-if (!fs.existsSync(logsDir)) {
-  fs.mkdirSync(logsDir, { recursive: true });
+const logDir = 'logs';
+if (!fs.existsSync(logDir)) {
+ fs.mkdirSync(logDir);
 }
-
-//const logDir = 'logs';
-//if (!fs.existsSync(logDir)) {
-//  fs.mkdirSync(logDir);
-//}
 
 const logger = winston.createLogger({
   level: 'info',
