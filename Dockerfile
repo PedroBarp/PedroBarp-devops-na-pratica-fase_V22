@@ -33,6 +33,8 @@ RUN npm ci --only=production
 
 EXPOSE 3000
 
+USER root
+RUN mkdir -p /tmp/logs && chown appuser:appgroup /tmp/logs
 USER appuser
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
@@ -40,3 +42,4 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
 
 # Comando para iniciar a aplicação
 CMD ["node", "src/app.js"]
+

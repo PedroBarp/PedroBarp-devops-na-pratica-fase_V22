@@ -6,12 +6,7 @@ const promClient = require('prom-client');
 const winston = require('winston');
 
 // Configuração do log
-
-const logDir = 'logs';
-if (!fs.existsSync(logDir)) {
- fs.mkdirSync(logDir);
-}
-
+const logDir = process.env.LOG_DIR || '/tmp/logs';
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
