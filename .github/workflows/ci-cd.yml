@@ -56,4 +56,5 @@ jobs:
       env:
         RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
       run: |
-        railway deploy --service devops-na-pratica --detach
+        railway login --token $RAILWAY_TOKEN
+        railway up --detach
