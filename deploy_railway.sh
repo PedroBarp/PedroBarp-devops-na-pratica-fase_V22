@@ -12,7 +12,7 @@ curl -fsSL https://railway.app/install.sh | bash
 
 # Realiza o deploy para o Railway
 echo "Iniciando deploy para o Railway..."
-railway deploy --service devops-na-pratica --detach
+railway deploy --service app --detach
 
 if [ $? -eq 0 ]; then
   echo "Deploy para o Railway concluído com sucesso!"
