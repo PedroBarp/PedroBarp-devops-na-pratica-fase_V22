@@ -10,10 +10,6 @@ fi
 echo "Instalando Railway CLI..."
 curl -fsSL https://railway.app/install.sh | bash
 
-# Faz login no Railway
-echo "Fazendo login no Railway..."
-railway login --token $RAILWAY_TOKEN
-
 # Realiza o deploy para o Railway
 echo "Iniciando deploy para o Railway..."
 railway deploy --service devops-na-pratica --detach
